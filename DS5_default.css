@@ -295,9 +295,8 @@
     left: 322px;
     height: 200px;
     width: 407px;
-    background: url('https://i.imgur.com/JbzCWdj.png');
+    background: url('https://i.imgur.com/J1DF8FG.png');
     background-repeat: no-repeat;
-    -webkit-animation: rotation_hue 8.5s infinite linear;
 }
 
 .custom .touchpad.pressed {
@@ -306,7 +305,7 @@
     left: 330px;
     height: 213px;
     width: 391px;
-    background: url('https://i.imgur.com/J1DF8FG.png');
+    background: url('https://i.imgur.com/JbzCWdj.png');
     background-repeat: no-repeat;
 }
 

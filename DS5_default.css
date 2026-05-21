@@ -297,6 +297,9 @@
     width: 407px;
     background: url('https://i.imgur.com/J1DF8FG.png');
     background-repeat: no-repeat;
+    animation: none !important;
+    -webkit-animation: none !important;
+    filter: none !important;
 }
 
 .custom .touchpad.pressed {

@@ -1,0 +1,25 @@
+/* Hide original stick graphics */
+.stick {
+    width: 9px !important;
+    height: 9px !important;
+    background: #ff3158 !important;
+    border: 1px solid white !important;
+    border-radius: 50% !important;
+    box-shadow: 0 0 5px #ff3158;
+    position: relative !important;
+    z-index: 2;
+}
+
+/* Tracer */
+.stick::before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: var(--trace-length, 0px);
+    height: 2px;
+    background: #ff3158;
+    transform-origin: left center;
+    transform: rotate(var(--trace-angle, 0deg));
+    z-index: -1;
+}

@@ -1,0 +1,10 @@
+.stick.left {
+    width: 10px !important;
+    height: 10px !important;
+    margin-left: inherit;
+    margin-top: inherit;
+    background: #ff3158 !important;
+    border: 1px solid white !important;
+    border-radius: 50% !important;
+    box-shadow: 0 0 5px #ff3158;
+}
